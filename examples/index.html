@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HTML</title>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Det første kapitel</h1>
+
+      <hr/>
+
+      <p id="lead" class="important">I dette afsnit …</p>
+
+      <p>
+        <strong>Vigtigt</strong>: Du kan læse om
+        <a href="https://da.wikipedia.org/wiki/Nissebanden">Nissebanden</a>
+        på urlen <code>https://da.wikipedia.org/wiki/Nissebanden</code>
+      </p>
+
+      <p>
+        Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non
+        orci commodo lobortis. Proin neque massa, cursus ut, gravida ut,
+        lobortis eget, lacus. Sed diam. Praesent fermentum tempor tellus. Nullam
+        tempus. Mauris ac felis vel velit tristique imperdiet. Donec at pede.
+        Etiam vel neque nec dui dignissim bibendum. Vivamus id enim. Phasellus
+        neque orci, porta a, aliquet quis, semper a, massa. Phasellus purus.
+        Pellentesque tristique imperdiet tortor. Nam euismod tellus id erat.
+      </p>
+
+      <p>
+        Aliquam erat volutpat. <code>Nunc eleifend leo vitae magna</code>. In id
+        erat non orci commodo lobortis. Proin neque massa, cursus ut, gravida
+        ut, lobortis eget, lacus. <code>Sed diam</code>. Praesent fermentum tempor
+        tellus. Nullam tempus. Mauris ac felis vel velit tristique imperdiet.
+        Donec at pede. Etiam vel neque nec dui dignissim bibendum. Vivamus id
+        enim. Phasellus neque orci, porta a, aliquet quis, semper a, massa.
+        Phasellus purus. Pellentesque tristique imperdiet tortor. Nam euismod
+        tellus id erat.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th class="number">Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mikkel</td>
+            <td class="number">46</td>
+          </tr>
+          <tr>
+            <td>Hr. Mortensen</td>
+            <td class="number">877</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div id="message" class="message"></div>
+
+      <button type="button" data-message="Hep-hey!">Show message</button>
+
+      <button id="alert">Show an alert</button>
+      <button class="toggle body">toggle body</button>
+
+      <div id="clock">#clock</div>
+
+      <ol class="menu">
+        <li class="menu-item">Item 1</li>
+        <li class="menu-item active">Item 2</li>
+        <li class="menu-item">Item 3</li>
+      </ol>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

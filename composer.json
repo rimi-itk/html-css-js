@@ -1,0 +1,19 @@
+{
+    "name": "rimi-itk/html-css-js",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mikkel Ricky",
+            "email": "rimi@aarhus.dk"
+        }
+    ],
+    "repositories": {
+        "mikkelricky/code-snippets": {
+            "type": "vcs",
+            "url": "https://github.com/mikkelricky/code-snippets"
+        }
+    },
+    "require-dev": {
+        "mikkelricky/code-snippets": "dev-main"
+    }
+}

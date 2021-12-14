@@ -1,18 +1,26 @@
 ---
-title: CSS
 permalink: /CSS
 order: 2
 ---
 
-[Cascading Style Sheets](https://en.wikipedia.org/wiki/CSS)
+# CSS
 
-Beskriver (visuel) præsentation af XML-dokumenter, oftest HTML, via *regler*.
+[Cascading Style Sheets](https://en.wikipedia.org/wiki/CSS) beskriver (visuel)
+præsentation af xml-dokumenter, oftest (x)html, via *regler*.
+
+Et [html](HTML)-dokument kan pege på et stylesheet via et `link`-element:
+
+```html
+<link rel="stylesheet" href="styles.css"/>
+```
 
 En regel består af en [*udvælger*
 (*selector*)](https://en.wikipedia.org/wiki/CSS#Selector) der identificerer
 elementer og en række
 [*erklæringer*](https://en.wikipedia.org/wiki/CSS#Declaration_block) (omklamret
 af `{` og `}` og adskilt af `;`) der definerer visningen af elementerne.
+
+En erklæring består af en <dfn>egenskab</dfn> og en <dfn>værdi</dfn> adskilt af `:`, fx `color: red`.
 
 <!-- text-snippet(src="examples/styles.css" from='h1' to="}") -->
 ```css
@@ -24,7 +32,7 @@ h1 {
 ```
 <!-- end-text-snippet -->
 
-# “The cascade”
+## “The cascade”
 
 <!-- text-snippet(src="examples/styles.css" from="21" to="+9") -->
 ```css
@@ -42,7 +50,18 @@ p[class~="lead"] {
 
 Resultatet er at elementerne `p[class~="lead"]` både får en farve og kursiv skrift.
 
-# Eksempler
+## Specificitet
+
+[Specificiteten](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+styrer rækkefølgen på reglerne. Regler med samme specificitet anvendes i den
+rækkefølge der læses i.
+
+Ikke alle eksempler bør efterleves, fx ikke [ER-1230: Increased CSS rule
+specificity and
+importance](https://github.com/eReolen/base/commit/d43e71e5db42321ff11bb5a7615f4ec235705ab9)
+
+
+## Eksempler
 
 <!-- text-snippet(src="examples/styles.css" from='#message') -->
 ```css

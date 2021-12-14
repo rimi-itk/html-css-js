@@ -4,7 +4,10 @@ permalink: /HTML
 order: 1
 ---
 
-[HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML) er et [XML](https://en.wikipedia.org/wiki/XML)-sprog.
+# HTML
+
+[HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
+er et [xml](https://en.wikipedia.org/wiki/XML)-sprog.
 
 Består af [*elementer*](https://en.wikipedia.org/wiki/XML#Element) der hver har
 et *navn*, `name`, består af et
@@ -45,3 +48,5 @@ Nogle elementer kan indeholde andre elementer:
 </div>
 ```
 <!-- end-text-snippet -->
+
+[HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)

@@ -4,9 +4,22 @@ permalink: /JavaScript
 order: 3
 ---
 
-<https://en.wikipedia.org/wiki/JavaScript>
+# JavaScript
 
-[Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript) er et programmeringssprog
+der kan fortolkes af en browser.
+
+Et [html](HTML)-dokument kan inkludere en JavaScript-fil via et `script`-element:
+
+```html
+<script src="scripts.js"></script>
+```
+
+**Bemærk**: Det virker ikke hvis man skriver `<script src="…"/>` selvom `script`-elementet
+er tomt!
+
+[Html](HTML)-dokumentet der vises kan tilgås og manipuleres via The [Document Object
+Model](https://en.wikipedia.org/wiki/Document_Object_Model).
 
 # “Event listeners”
 

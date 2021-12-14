@@ -6,4 +6,4 @@
 1. [HTML](HTML)
 2. [CSS](CSS)
 3. [JavaScript](JavaScript)
-4. [An example](examples/index.html)
+4. [Et eksempel](examples/index.html) ([xhtml](examples/index.xhtml))

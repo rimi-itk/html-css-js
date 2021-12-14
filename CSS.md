@@ -26,7 +26,7 @@ h1 {
 
 # “The cascade”
 
-<!-- text-snippet(src="examples/styles.css" from="21" to="+8") -->
+<!-- text-snippet(src="examples/styles.css" from="21" to="+9") -->
 ```css
 /* Style p elements. */
 p {

@@ -28,7 +28,7 @@ der angives inden i start-tagget og som hver har et *navn* og en *værdi*
 
 Nogle elementer kan indeholde andre elementer:
 
-<!-- text-snippet(src="examples/index.html" strip-leading-spaces from='class="container"' to="+11" suffix="</div>") -->
+<!-- text-snippet(src="examples/index.html" strip-leading-spaces from='class="container"' to="+12" suffix="</div>") -->
 ```html
 <div class="container">
   <h1>Det første kapitel</h1>

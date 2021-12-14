@@ -30,13 +30,12 @@ document.querySelector('button[data-message]').addEventListener('click', functio
   console.log(this.dataset)
   showMessage(this.dataset.message)
 })
-
 ```
 <!-- end-text-snippet -->
 
 # Regelmæssighed
 
-<!-- text-snippet(src="examples/scripts.js" from='setInterval' to="+2") -->
+<!-- text-snippet(src="examples/scripts.js" from='setInterval' to="+3") -->
 ```js
 setInterval(() => {
   document.getElementById('clock').innerHTML = (new Date()).toString()

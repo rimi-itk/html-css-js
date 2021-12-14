@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikkelricky/code-snippets.git",
-                "reference": "1ea5254095c629cdae39c1a548d6982cbc9e065c"
+                "reference": "5502b0a7695ac835fa8cd524ccea158b7bafc9a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikkelricky/code-snippets/zipball/1ea5254095c629cdae39c1a548d6982cbc9e065c",
-                "reference": "1ea5254095c629cdae39c1a548d6982cbc9e065c",
+                "url": "https://api.github.com/repos/mikkelricky/code-snippets/zipball/5502b0a7695ac835fa8cd524ccea158b7bafc9a2",
+                "reference": "5502b0a7695ac835fa8cd524ccea158b7bafc9a2",
                 "shasum": ""
             },
             "require": {
@@ -88,7 +88,7 @@
                 "source": "https://github.com/mikkelricky/code-snippets/tree/main",
                 "issues": "https://github.com/mikkelricky/code-snippets/issues"
             },
-            "time": "2021-12-13T21:14:53+00:00"
+            "time": "2021-12-14T07:38:30+00:00"
         },
         {
             "name": "psr/container",

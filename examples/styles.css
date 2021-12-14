@@ -20,12 +20,12 @@ h1 {
 
 /* Style p elements. */
 p {
+  color: hsl(0, 25%, 50%);
 }
 
 /* Style p elements with a class attribute containg the word "lead". */
 p[class~="lead"] {
-  font-weight: bold;
-  color: red;
+  font-style: italic;
 }
 
 /* Style a elements with href attribute values starting with "https://". */

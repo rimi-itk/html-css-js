@@ -1,12 +1,18 @@
-# CSS
+---
+title: CSS
+permalink: /CSS
+order: 2
+---
 
-Cascading Style Sheets
+[Cascading Style Sheets](https://en.wikipedia.org/wiki/CSS)
 
 Beskriver (visuel) præsentation af XML-dokumenter, oftest HTML, via *regler*.
 
-En regel består af en *udvælger* (*selector*) der identificerer elementer og en
-række *erklæringer* (omklamret af `{` og `}` og adskilt af `;`) der definerer
-visningen af elementerne.
+En regel består af en [*udvælger*
+(*selector*)](https://en.wikipedia.org/wiki/CSS#Selector) der identificerer
+elementer og en række
+[*erklæringer*](https://en.wikipedia.org/wiki/CSS#Declaration_block) (omklamret
+af `{` og `}` og adskilt af `;`) der definerer visningen af elementerne.
 
 <!-- text-snippet(src="examples/styles.css" from='h1' to="}") -->
 ```css
@@ -17,6 +23,26 @@ h1 {
 }
 ```
 <!-- end-text-snippet -->
+
+# “The cascade”
+
+<!-- text-snippet(src="examples/styles.css" from="21" to="+8") -->
+```css
+/* Style p elements. */
+p {
+  color: hsl(0, 25%, 50%);
+}
+
+/* Style p elements with a class attribute containg the word "lead". */
+p[class~="lead"] {
+  font-style: italic;
+}
+```
+<!-- end-text-snippet -->
+
+Resultatet er at elementerne `p[class~="lead"]` både får en farve og kursiv skrift.
+
+# Eksempler
 
 <!-- text-snippet(src="examples/styles.css" from='#message') -->
 ```css
@@ -32,12 +58,12 @@ h1 {
 
 /* Style p elements. */
 p {
+  color: hsl(0, 25%, 50%);
 }
 
 /* Style p elements with a class attribute containg the word "lead". */
 p[class~="lead"] {
-  font-weight: bold;
-  color: red;
+  font-style: italic;
 }
 
 /* Style a elements with href attribute values starting with "https://". */

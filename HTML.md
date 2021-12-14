@@ -1,9 +1,16 @@
-# HTML
+---
+title: "HTML"
+permalink: /HTML
+order: 1
+---
 
-HyperText Markup Language er et XML-sprog.
+[HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML) er et [XML](https://en.wikipedia.org/wiki/XML)-sprog.
 
-Består af *elementer* der hver har et *navn*, `name`, består af et *starttag*
-(`<name>`) og et *sluttag* (`</name>`) eller er et *tomt element* (`<name/>`).
+Består af [*elementer*](https://en.wikipedia.org/wiki/XML#Element) der hver har
+et *navn*, `name`, består af et
+[*start-tag*](https://en.wikipedia.org/wiki/XML#Tag) (`<name>`) og et
+[*slut-tag*](https://en.wikipedia.org/wiki/XML#Tag) (`</name>`) eller er et
+[*tomt element*](https://en.wikipedia.org/wiki/XML#Tag) (`<name/>`).
 
 ```html
 <h1>Det første kapitel</h1>
@@ -11,7 +18,9 @@ Består af *elementer* der hver har et *navn*, `name`, består af et *starttag*
 <hr/>
 ```
 
-Et element kan have *attributter* der angives inden i starttagget og som hver har et *navn* og en *værdi* (`name="value"`):
+Et element kan have [*attributter*](https://en.wikipedia.org/wiki/XML#Attribute)
+der angives inden i start-tagget og som hver har et *navn* og en *værdi*
+(`name="value"`):
 
 ```html
 <p id="lead" class="important">I dette afsnit …</p>
@@ -26,7 +35,7 @@ Nogle elementer kan indeholde andre elementer:
 
   <hr/>
 
-  <p id="lead" class="important">I dette afsnit …</p>
+  <p class="lead">I dette afsnit …</p>
 
   <p>
     <strong>Vigtigt</strong>: Du kan læse om

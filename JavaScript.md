@@ -1,8 +1,14 @@
-# JavaScript
+---
+title: JavaScript
+permalink: /JavaScript
+order: 3
+---
 
 <https://en.wikipedia.org/wiki/JavaScript>
 
 [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)
+
+# “Event listeners”
 
 <!-- text-snippet(src="examples/scripts.js" from='window.addEventListener' to="}") -->
 ```js
@@ -11,6 +17,8 @@ window.addEventListener('load', (event) => {
 })
 ```
 <!-- end-text-snippet -->
+
+# Funktioner
 
 <!-- text-snippet(src="examples/scripts.js" from='showMessage' to="+8") -->
 ```js
@@ -25,6 +33,8 @@ document.querySelector('button[data-message]').addEventListener('click', functio
 
 ```
 <!-- end-text-snippet -->
+
+# Regelmæssighed
 
 <!-- text-snippet(src="examples/scripts.js" from='setInterval' to="+2") -->
 ```js

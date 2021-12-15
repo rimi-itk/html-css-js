@@ -16,7 +16,9 @@ document.querySelector('#alert').addEventListener('click', (event) => {
 })
 
 document.querySelector('.toggle.body').addEventListener('click', (event) => {
-  document.body.classList.toggle('active')
+  // @see https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+  document.body.classList.toggle('bg-dark')
+  event.target.innerHTML = document.body.classList.contains('bg-dark') ? 'Disable dark mode' : 'Enable dark mode'
 })
 
 for (var el of document.querySelectorAll('code')) {

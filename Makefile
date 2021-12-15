@@ -9,4 +9,4 @@ examples/index.xhtml: examples/index.html
 	xmlstarlet --quiet val $< && cp $< $@
 
 server-start:
-	bundle exec jekyll serve --destination _site/html-css-js
+	bundle exec jekyll serve --incremental --destination _site/html-css-js

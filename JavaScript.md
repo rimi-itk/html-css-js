@@ -46,6 +46,19 @@ document.querySelector('button[data-message]').addEventListener('click', functio
 ```
 <!-- end-text-snippet -->
 
+[`Element.classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+kan bruges til at manipulere css-klasser på et element:
+
+<!-- text-snippet(src="examples/scripts.js" from='.toggle.body' to="})") -->
+```js
+document.querySelector('.toggle.body').addEventListener('click', (event) => {
+  // @see https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+  document.body.classList.toggle('bg-dark')
+  event.target.innerHTML = document.body.classList.contains('bg-dark') ? 'Disable dark mode' : 'Enable dark mode'
+})
+```
+<!-- end-text-snippet -->
+
 # Regelmæssighed
 
 <!-- text-snippet(src="examples/scripts.js" from='setInterval' to="+3") -->
